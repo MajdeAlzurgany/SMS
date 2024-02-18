@@ -1,0 +1,139 @@
+
+body {
+    background-image: url("../Project's pictures/1.png");
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: 100%;
+}
+header {
+    background-image: url("../Project's pictures/logo2.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #007BFF;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
+footer {
+    color: #fff;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: -7px;
+}
+
+.social-media {
+    margin-top: 20px; 
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.social-media a {
+    margin: 0 10px; 
+}
+
+.face, .insta, .youtube, .whats, .tele {
+    width: 30px;
+    height: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+.user-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.user-info span  {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.logout-button , .personal-info {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.logout-button:hover,
+.personal-info:hover {
+    background-color: #555;
+}
+
+

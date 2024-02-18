@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSSfiles/matchedStyles.css">
+    <link rel="stylesheet" href="../CSSfiles/commentStyle.css">
+    <title>JoyJunction</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../HTMLfiles/index.html">JoyJunction</a></h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a target="_blank" href="signIn.html">Sign In</a></li>
+            <li><a target="_blank" href="signUp.html">Sign Up</a></li>
+            <li><a target="_blank" href="writepost.html">Add Post</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="comment.html">Comment</a></li>
+            <li><a href="vote.html">Vote</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="../HTMLfiles/signIn.html">Log Out</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="write-comment-form">
+            <h2>Write a Comment</h2>
+            <form action="../PHPfilse/comment.php" method="POST">
+                <input type="hidden" name="commenterName" value="guest">
+                
+                <label for="commenterName">User name: guest<img class="blank-profile" src="../Project's Pictures/blank-profile.webp" alt="guest"></label>
+    
+                <label for="commentText">Comment:</label>
+                <textarea id="commentText" name="commentText" rows="4" placeholder="write a comment!" required></textarea>
+    
+                <button type="submit" name="submit">Submit Comment</button>
+            </form>
+        </div>
+    </main>
+    
+    
+
+    <footer>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank"><img class="face" src="../Project's Pictures/face.webp" alt="facebook icon"></a>
+            <a href="https://instagram.com" target="_blank"><img class="insta" src="../Project's Pictures/Insta.webp" alt="instagram icon"></a>
+            <a href="https://youtube.com" target="_blank"><img class="youtube" src="../Project's Pictures/youtube.png" alt="youtube icon"></a>
+            <a href="https://web.telegram.org/a/" target="_blank"><img class="tele" src="../Project's Pictures/Telegram.webp" alt="telegram icon"></a>
+            <a href="https://whatsapp.com" target="_blank"><img class="whats" src="../Project's Pictures/whats.png" alt="whatsapp icon"></a>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Your Website. All rights reserved.
+        </div>
+        <p class="info">
+            <div>Phone number : 0919353046</div>
+            <div>Email : majde.zr@gmail.com </div>
+            <div>Company Locatin : Libya - Tripoli </div>
+        </p>
+    </footer>
+
+</body>
+</html>

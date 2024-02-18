@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSSfiles/SearchStyle.css">
+    <link rel="stylesheet" href="../CSSfiles/matchedStyles.css">
+    <title>Search</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../HTMLfiles/index.html">JoyJunction</a></h1>
+        <img class="logo" src="../Project's Pictures/1.png" alt="LOGO">
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a target="_blank" href="signIn.html">Sign In</a></li>
+            <li><a target="_blank" href="signUp.html">Sign Up</a></li>
+            <li><a target="_blank" href="writepost.html">Add Post</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="comment.html">Comment</a></li>
+            <li><a href="vote.html">Vote</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="../HTMLfiles/signIn.html">Log Out</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="search-form">
+            <h2>Search</h2>
+            <form action="../PHPfiles/search.php" method="get">
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="social">Social</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="funny">Funny</option>
+                    <option value="politician">Politician</option>
+                    <option value="religious">Religious</option>
+                </select>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+
+                <label for="post-content">Post Content:</label>
+                <input type="text" id="post-content" name="post-content">
+
+                <button type="submit" name="search">Search</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank"><img class="face" src="../Project's Pictures/face.webp" alt="facebook icon"></a>
+            <a href="https://instagram.com" target="_blank"><img class="insta" src="../Project's Pictures/Insta.webp" alt="instagram icon"></a>
+            <a href="https://youtube.com" target="_blank"><img class="youtube" src="../Project's Pictures/youtube.png" alt="youtube icon"></a>
+            <a href="https://web.telegram.org/a/" target="_blank"><img class="tele" src="../Project's Pictures/Telegram.webp" alt="telegram icon"></a>
+            <a href="https://whatsapp.com" target="_blank"><img class="whats" src="../Project's Pictures/whats.png" alt="whatsapp icon"></a>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Your Website. All rights reserved.
+        </div>
+        <p class="info">
+            <div>Phone number : 0919353046</div>
+            <div>Email : majde.zr@gmail.com </div>
+            <div> company Locatin : Libya - Tripoli </div>
+        </p>
+    </footer>
+
+</body>
+</html>

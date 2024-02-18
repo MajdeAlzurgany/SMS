@@ -1,0 +1,39 @@
+.search-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.search-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.search-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-form label {
+    margin-bottom: 10px;
+}
+
+.search-form select,
+.search-form input,
+.search-form button {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.search-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #555;
+}

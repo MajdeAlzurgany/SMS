@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #333333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.edit-post-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.edit-post-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-post-form input[type="text"],
+.edit-post-form input[type="date"],
+.edit-post-form select,
+.edit-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.edit-post-form textarea {
+    height: 150px;
+}
+
+.edit-post-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.edit-post-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+.user-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.user-info span  {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.logout-button , .personal-info ,
+.Search-type {
+    background-color: #6a8c50;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.logout-button:hover,
+.personal-info:hover ,
+.Search-type:hover{
+    background-color: #8acc58;
+}

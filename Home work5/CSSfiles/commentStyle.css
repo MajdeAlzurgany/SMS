@@ -1,0 +1,46 @@
+
+.write-comment-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.write-comment-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.write-comment-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.write-comment-form label {
+    margin-bottom: 10px;
+}
+
+.write-comment-form input,
+.write-comment-form textarea,
+.write-comment-form button {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.write-comment-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.write-comment-form button:hover {
+    background-color: #555;
+}
+.blank-profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
